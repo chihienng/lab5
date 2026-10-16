@@ -1,0 +1,113 @@
+/* 
+   Author: Chi Hien Nguyen
+   Date: 16 October 2026
+   Purpose: Layout styles for Lab 5
+*/
+
+aside:hover {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+
+
+
+/* Step 3: CSS Box Model */
+
+
+aside {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    background-image: url("images/fade.jpg");
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double darkgray;
+}
+
+
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+}
+
+
+#hyperlinks {
+    clear: both;
+}
+
+
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+footer {
+    clear: both;
+}
+
+
+#lists, #tables, #hyperlinks, #images {
+    width: 45%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+
+
+article {
+    min-width: 30em;
+}
+
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
+
