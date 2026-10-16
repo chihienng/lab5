@@ -8,10 +8,12 @@ aside:hover {
     display: block;
 }
 
+/* make menu horizontal */
 .menu {
     display: inline-block;
 }
 
+nav ul {list-style: none;}
 
 
 
@@ -19,13 +21,14 @@ aside:hover {
 
 
 aside {
-    border: 1px solid black;
+    border: 4px inset purple;
     margin: 1em;
     padding: 1em;
     background-image: url("images/fade.jpg");
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 14px;
 }
 
 
@@ -39,6 +42,7 @@ header {
 
 footer {
     border-top: 4px double darkgray;
+    clear: both; 
 }
 
 
@@ -58,8 +62,8 @@ table {
 
 #hyperlinks {
     clear: both;
+    float: left
 }
-
 
 
 #images {
