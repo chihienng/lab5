@@ -1,0 +1,13 @@
+/* 
+   Author: Chi Hien Nguyen
+   Date: 16 October 2026
+   Purpose: Layout styles for Lab 5
+*/
+
+aside:hover {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
